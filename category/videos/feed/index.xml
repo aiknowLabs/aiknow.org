@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Videos (Demo) &#8211; Gem</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Thu, 07 Nov 2019 06:05:18 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.4</generator>
+	<item>
+		<title>Video Post (Demo)</title>
+		<link>./../../../2016/03/15/post-with-video-lightbox/index.html</link>
+				<comments>./../../../2016/03/15/post-with-video-lightbox/index.html#respond</comments>
+				<pubDate>Tue, 15 Mar 2016 21:00:13 +0000</pubDate>
+		<dc:creator><![CDATA[gem]]></dc:creator>
+				<category><![CDATA[Events (Demo)]]></category>
+		<category><![CDATA[Videos (Demo)]]></category>
+		<category><![CDATA[Mountains (Demo)]]></category>
+		<category><![CDATA[Nature (Demo)]]></category>
+		<category><![CDATA[Travelling (Demo)]]></category>
+
+		<guid isPermaLink="false">http://democontent.codex-themes.com/thegem-creative/?p=11956</guid>
+				<description><![CDATA[Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.]]></description>
+								<content:encoded><![CDATA[<div id="vc_row-5dc3bbdc6640b" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1457791968195"><div class="wpb_wrapper"><div class="gem-youtube gem-wrapbox gem-wrapbox-style-no-style rounded-corners gem-wrapbox-position-below" style="width: 100%;"><div class="gem-wrapbox-inner gem-ratio-style" style="padding-top: 56.25%"><iframe class="gem-wrapbox-element img-responsive" width="100%" height="300" allowfullscreen="allowfullscreen" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.youtube.com/embed/XovcSDRQRO4?rel=0&amp;wmode=opaque"></iframe></div></div><div class="clearboth"></div><div class="gem-divider " style="margin-top: 25px;"></div></div></div></div></div><div id="vc_row-5dc3bbdc67a7b" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		</div>
+	</div>
+<div class="clearboth"></div><div class="gem-divider " style="margin-top: 35px;"></div><div   class="gem-quote gem-quote-style-2 gem-quote-no-paddings"><blockquote  >&#8230;Lorem Ipsum proin gravida nibh vel velit  aliquet.</blockquote></div><div class="clearboth"></div><div class="gem-divider " style="margin-top: -32px;"></div>
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+		</div>
+	</div>
+</div></div></div></div><div id="vc_row-5dc3bbdc69081" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="clearboth"></div><div class="gem-divider " style="margin-top: 20px;"></div></div></div></div></div><div id="vc_row-5dc3bbdc698f8" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="gem-textbox" ><div class="gem-textbox-inner" style="border: 3px solid #e3e8ea;"><div class="gem-textbox-content" style="background-position: center top;"><div class="gem-alert-box"><div class="gem-alert-inner"><div class="gem-alert-box-picture"><div class="gem-icon gem-icon-pack-material gem-icon-size-medium  gem-icon-shape-circle" style="border-color: #00bcd4;opacity: 1;"><div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #00bcd4;"><span class="back-angle">&#xf412;</span></span><span class="gem-icon-half-2" style="color: #00bcd4;"><span class="back-angle">&#xf412;</span></span></div></div></div><div class="gem-alert-box-content">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+
+		</div>
+	</div>
+</div><div class="gem-alert-box-buttons"><div class="gem-button-container gem-button-position-center"><a class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-normal gem-button-border-2" style="border-radius: 3px;border-color: #8697ff;color: #8697ff;" onmouseleave="this.style.borderColor='#8697ff';this.style.backgroundColor='transparent';this.style.color='#8697ff';" onmouseenter="this.style.backgroundColor='#8697ff';this.style.color='#ffffff';" href="" target="_self">buy now</a></div> </div></div></div></div></div></div></div></div></div></div>
+]]></content:encoded>
+							<wfw:commentRss>./../../../2016/03/15/post-with-video-lightbox/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>
