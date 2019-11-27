@@ -327,16 +327,16 @@
             return tv;
 
         }
-        setTimeout(function() {
-            if (window.THREE != undefined) {
-                initWorld();
-                setTimeout(function() {
-                    handleWindowResize();
-                }, 1000);
-            } else {
-                window.onload = initWorld;
-            }
-        }, 2000);
+        // setTimeout(function() {
+        //     if (window.THREE != undefined) {
+        //         initWorld();
+        //         setTimeout(function() {
+        //             handleWindowResize();
+        //         }, 1000);
+        //     } else {
+        //         window.onload = initWorld;
+        //     }
+        // }, 2000);
     })();
 						}
 						
