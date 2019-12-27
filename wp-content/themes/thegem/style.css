@@ -7467,6 +7467,7 @@ content: '\e63e';
 
 .wpb_text_column.wpb_animate_when_almost_visible.wpb_fade {
 	opacity: 1;
+	padding-left: 95%;
 }
 
 body .wpb_text_column.wpb_animate_when_almost_visible.wpb_fade {
