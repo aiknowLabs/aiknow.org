@@ -40,6 +40,9 @@
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.4"}};
 			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
 		</script>
+        
+        
+
 		<style type="text/css">
 img.wp-smiley,
 img.emoji {
@@ -63,6 +66,103 @@ img.emoji {
 		body:not(.compose-mode) .gem-icon .gem-icon-half-2 {
 			opacity: 0 !important;
 			}
+</style>
+
+<style type="text/css">
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  overflow:hidden;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+
+.modal-body {padding: 2px 16px;
+
+  color: black;
+
+}
+
+.modal-bgcolor1{
+    padding: 2px 16px;
+    background-color: #429ae2;
+}
+
+.modal-bgcolor2{
+    padding: 2px 16px;
+    background-color: #8e42e2c4;
+}
+
+.modal-bgcolor3{
+    padding: 2px 16px;
+    background-color: #00bcd4;
+}
+
+
+
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+
+
+.
+
 </style>
 
 <style>
@@ -224,7 +324,7 @@ var zilla_likes = {"ajaxurl":".\/wp-admin\/admin-ajax.php"};
         </div>
     </header>
     <!-- #site-header -->
-					</div><!-- #site-header-wrapper -->
+</div><!-- #site-header-wrapper -->
 
 	
 	<div id="main" class="site-main">
@@ -1808,14 +1908,14 @@ We will suggest you what your family would like to eat today based on seasonalit
 									<div class="clearboth"></div>
 								</div>
 								<div class="clearboth"></div>
-								<div class="gem-divider " style="margin-top: 30px;"></div>
+								<div class="gem-divider" style="margin-top: 30px;"></div>
 							</div>
 						</div>
 					</div>
 
 
 
-<div id="vc_row-5dc3b6e356418" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1459258631922 vc_row-o-equal-height vc_row-flex">
+<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1459258631922 vc_row-o-equal-height vc_row-flex">
 	<script type="text/javascript">if (typeof(gem_fix_fullwidth_position) == "function") { gem_fix_fullwidth_position(document.getElementById("vc_row-5dc3b6e356418")); }</script>
 	<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-has-fill">
 	<div class="vc_column-inner vc_custom_1459259606656"><div class="wpb_wrapper">
@@ -1835,13 +1935,31 @@ We will suggest you what your family would like to eat today based on seasonalit
 
 		</div>
 	</div>
-<div class="clearboth"></div><div class="gem-divider" style="margin-top: 10px;"></div>
+<div class="clearboth"></div>
+<div class="gem-divider" style="margin-top: 10px;"></div>
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
 			<div style="color: #3c3950;"><h6>Job Summary</h6>
+We are looking for a skilled React Native developer for developing native apps on Android as well as IOS. The candidate should have at least 2-year experience and should have the knowledge and confidence to work solo (independently) in projects and be able to deliver in the committed timeline.</br></br></br></br>
+<button class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-thin gem-button-border-1"
+ id="myBtn">View More</button>
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      
+    </div>
+    <div class="modal-body modal-bgcolor1">
+        <h4>Front End React Native</h4>
+        <h6>Job Summary</h6>
 We are looking for a skilled React Native developer for developing native apps on Android as well as IOS. The candidate should have at least 2-year experience and should have the knowledge and confidence to work solo (independently) in projects and be able to deliver in the committed timeline.
-<h5>Qualifications and Skills</h5>
-<span style="color: #ffffff;"><h6>Essential:</h6> B.E. / B.Tech / MCA with 2-3 years of experience of proven UI/UX Development
+
+
+        <h5>Qualifications and Skills</h5>
+<span style="color: black;"><h6>Essential:</h6> B.E. / B.Tech / MCA with 2-3 years of experience of proven UI/UX Development
 <h6>Responsibilities and Duties</h6>
 <li>Ability to think from end user’s perspective and focused on improving the overall product experience</li>
 <li>Very good understanding of the React Native framework. 1 year of experience in React Native based application development.</li>
@@ -1852,29 +1970,33 @@ We are looking for a skilled React Native developer for developing native apps o
 <li>Understanding of Android and iOS Code signing process and deployment model</li>
 <li>Excellent expose and expertise in design patterns and software design patterns in general.</li>
 <li>Ability to write unit test cases and test their code accordingly.</li>
-</span>
-</div>
 
-		</div>
-	</div>
-
-	<div class="wpb_text_column wpb_content_element" >
-		<div class="wpb_wrapper">
-			<span style="color: #ffffff;"><h6>Required Experience, Skills and Qualifications</h6>
+        
+    <h6>Required Experience, Skills and Qualifications</h6>
 <li>React Native, JavaScript, Android, and IOS Development, HTML5</li>
 <h6>Job Type:</h6> Full-time
 <h6>Experience:</h6>
-<li>Programming: 2-3 years (Required)</li></span>
+<li>Programming: 2-3 years (Required)</li>
+<a class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-thin gem-button-border-1" href="https://forms.gle/dBNphYQfJ9GpQi6j6">Apply</a>
 
-		</div>
-	</div>
+</span>
+
+
 <div class="clearboth"></div><div class="gem-divider" style="margin-top: 50px;"></div></div></div><div class="clearboth"></div></div>
 </div>
+ </div>
 
+</div>
 
 
 
 </div></div>
+     
+    </div>
+  </div>
+</div>
+
+
 <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-has-fill">
 	<div class="vc_column-inner vc_custom_1459259620311"><div class="wpb_wrapper"><div class="clearboth"></div>
 <div class="gem-divider" style="margin-top: 18px;"></div>
@@ -1891,9 +2013,28 @@ We are looking for a skilled React Native developer for developing native apps o
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
 			<div style="color: #3c3950;"><h6> Job Summary</h6>
-We are looking for a skilled React JS/JS developer with proven experience on UI/UX development 
-<h>Qualifications and Skills</h5>
-<span style="color: #ffffff;"><h6>Essential:</h6> B.E. / B.Tech / MCA with 2-3 years of experience of proven UI/UX Development
+We are looking for a skilled React JS/JS developer with proven experience on UI/UX development </br></br></br></br></br></br></br></br>
+
+<button class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-thin gem-button-border-1" id="myBtn1">View More</button>
+
+<div id="myModal1" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body modal-bgcolor2">
+        <h4>front end React JS</h4>
+        <h6> Job Summary</h6>
+We are looking for a skilled React JS/JS developer with proven experience on UI/UX development </br>
+
+
+
+<h5>Qualifications and Skills</h5>
+
+
+<h6>Essential:</h6> B.E. / B.Tech / MCA with 2-3 years of experience of proven UI/UX Development
+
+        
 <h6>Responsibilities</h6>
 The day-to-day work of a MonetizeMore web developer includes:
 <li>Write the HTML/CSS/JS of web products based on the designs of the UX team.</li>
@@ -1905,14 +2046,10 @@ The day-to-day work of a MonetizeMore web developer includes:
 <li>Running performance benchmarking tests.</li>
 <li>Staying up to date with new trends and advancements in web development and ad tech.</li>
 <li>Attending daily stand-up meetings (15 mins) and other Scrum meetings (Every 3 weeks).</li>
-</span></div>
-
-		</div>
-	</div>
 
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
-			<span style="color: #ffffff;"><h6>Skills needed:</h6>
+<h6>Skills needed:</h6>
 <li>Extensive knowledge of modern HTML and CSS</li>
 <li>Extensive knowledge of Javascript</li>
 <li>Extensive knowledge of modern Javascript libraries and tools (e.g. React, Redux, Angular, Electron, etc)</li>
@@ -1921,11 +2058,20 @@ The day-to-day work of a MonetizeMore web developer includes:
 <li>Strong UX and design sensibilities</li>
 <h6>Job Type:</h6> Full-time
 <h6>Experience:</h6>
-<li>Programming: 2-3 years (Required) </li></span>
+<li>Programming: 2-3 years (Required) </li>
+<a class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-thin gem-button-border-1" href="https://forms.gle/dBNphYQfJ9GpQi6j6">Apply</a>
 
 		</div>
 	</div>
 <div class="clearboth"></div><div class="gem-divider" style="margin-top: 50px;"></div></div></div><div class="clearboth"></div></div></div></div></div>
+
+</div>
+</div>
+</div>
+</div>
+
+        </div>
+    </div>
 
 
 <!--
@@ -2009,16 +2155,31 @@ The day-to-day work of a MonetizeMore web developer includes:
 <div class="clearboth"></div><div class="gem-divider" style="margin-top: 10px;"></div>
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
-			<div style="color: #3c3950;"><h5>Qualifications and Skills</h5>
-<h6>Essential:</h6>
-B.E. / B.Tech / MCA with 2-3 years of experience in Java Backend Development preferably Spring Boot, Hibernate or Similar  </span></div>
+			<div style="color: #3c3950;">
+                <h6> Job Summary</h6>
+                We are looking for an analytical, results-driven Back-end Developer who will work with team members to troubleshoot and improve current as well as upcoming projects for back-end applications and processes. The Back-end Developer will use his or her understanding of programming languages and tools to analyse current codes and industry developments, formulate more efficient processes, solve problems, and create a more seamless experience for users.
+<button class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-thin gem-button-border-1" id="myBtn2">View More</button>
+</div>
 
 		</div>
 	</div>
+    <div id="myModal2" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+    </div>
+    <div class="modal-body modal-bgcolor3">
+
+
 
 	<div class="wpb_text_column wpb_content_element" >
 		<div class="wpb_wrapper">
-			<span style="color: #ffffff;"><h6>Desirable:</h6>
+           <h4> Java Backend Developer</h4>
+            <h5>Qualifications and Skills</h5>
+           <h6>Essential:</h6>
+B.E. / B.Tech / MCA with 2-3 years of experience in Java Backend Development preferably Spring Boot, Hibernate or Similar</br> 
+		
+        <h6>Desirable:</h6>
 
 <li>Working on Java/ J2EE development.</li>
 <li>Working knowledge of UI/ Full-stack technologies would be a huge plus</li>
@@ -2034,30 +2195,19 @@ B.E. / B.Tech / MCA with 2-3 years of experience in Java Backend Development pre
 <h6>Job Type:</h6> Full-time
 <h6>Experience:</h6>
 <li>Programming: 2-3 years (Required)</li>
- </span>
+
+<a class="gem-button gem-button-size-medium gem-button-style-outline gem-button-text-weight-thin gem-button-border-1" href="https://forms.gle/dBNphYQfJ9GpQi6j6">Apply</a>
 
 		</div>
 	</div>
 <div class="clearboth"></div><div class="gem-divider" style="margin-top: 50px;"></div></div></div><div class="clearboth"></div></div>
 </div>
 
-
-
-
 </div></div>
-
-
-
-
-
-
-
-
-
 </div>
-
-
-
+</div>
+</div>
+</div>
 
 
 
@@ -2294,5 +2444,108 @@ var _wpmejsSettings = {"pluginPath":"\/gem\/wp-includes\/js\/mediaelement\/","cl
 <script type='text/javascript' src='./wp-content/themes/thegem/js/thegem-blog-core.js?ver=5.2.4'></script>
 <script type='text/javascript' src='./wp-content/themes/thegem/js/thegem-blog-isotope.js?ver=5.2.4'></script>
 <script type='text/javascript' src='./wp-content/themes/thegem/js/jquery.parallaxVertical.js?ver=5.2.4'></script>
+
+<script>
+
+          // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+</script>
+
+
+<script>
+
+
+        // Get the modal
+var modal1 = document.getElementById("myModal1");
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("myBtn1");
+
+
+// Get the <span> element that closes the modal
+var span1 = document.getElementsByClassName("close")[1];
+
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+
+
+</script>
+
+
+
+<script>
+    function test(){
+        console.log("Here 1");
+    }
+
+    $("#myBtn2").off('click')
+    $("#myBtn2").on('click', function() {
+        console.log("Here ");
+        $("#myModal2").css('display', 'block');
+    });
+
+         // Get the modal
+var modal2 = document.getElementById("myModal2");
+
+// Get the button that opens the modal
+var btn2 = document.getElementById("myBtn2");
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close")[2];
+
+
+
+
+// When the user clicks the button, open the modal 
+btn2.onclick = function() {
+    console.log("hgfghfd");
+  modal2.style.display = "block";
+}
+
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+
+ 
+
+
+
+
+</script>
 </body>
 </html>
