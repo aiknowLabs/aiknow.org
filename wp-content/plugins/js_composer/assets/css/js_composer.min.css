@@ -4330,7 +4330,7 @@ i.icon {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  z-index: 1;
+  
 }
 
 @media (-ms-high-contrast:active),(-ms-high-contrast:none) {

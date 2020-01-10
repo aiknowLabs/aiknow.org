@@ -3303,7 +3303,7 @@ body .woocommerce .checkout-signin .checkout-create-account button:hover {
 .gem-button.gem-button-style-outline,
 body .woocommerce .woocommerce-cart-form .actions .submit-buttons .update-cart button:hover,
 body .checkout-navigation-buttons .checkout-place-order button:hover {
-	color: #00bcd4;
+	color: #ffeb3b;
 }
 
 .gem-button.gem-button-style-outline:hover,
@@ -3318,7 +3318,7 @@ body .checkout-navigation-buttons .checkout-place-order button {
 body .woocommerce .woocommerce-cart-form .actions .submit-buttons .update-cart button:hover,
 body .checkout-navigation-buttons .checkout-place-order button:hover,
 body .checkout-navigation-buttons .checkout-place-order button {
-	border-color: #00bcd4;
+	border-color:#ffeb3b; 
 }
 .gem-button.gem-button-style-outline:hover,
 .comment-form .form-submit .gem-button.submit,
